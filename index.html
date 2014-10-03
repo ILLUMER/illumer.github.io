@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+  <meta charset="UTF-8">
+  <title>illumer 中学生技术社区</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport"
+        content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <meta name="format-detection" content="telephone=no">
+  <meta name="renderer" content="webkit">
+  <meta http-equiv="Cache-Control" content="no-siteapp"/>
+  <link rel="alternate icon" type="image/png" href="favicon.png">
+  <link href="http://cdn.staticfile.org/amazeui/1.0.0-beta2/css/amazeui.min.css" rel="stylesheet">
+  <style>
+    .join {
+      background: #5c5c98;
+      color: #efe9d9;
+      text-align: center;
+      padding: 100px 0;
+    }
+
+    .join-title {
+      font-size: 300%;
+      padding: 20px;
+      display: inline-block;
+    }
+
+    .join-btn {
+      background: #efe9d9;
+      color: #5c5c98;
+    }
+
+    .detail {
+      background: #fff;
+      padding: 50px 0;
+    }
+
+    .detail-h2 {
+      text-align: center;
+      font-size: 150%;
+      margin: 40px 0;
+    }
+
+    .detail-h3 {
+      color: #5c5c98;
+    }
+
+    .detail-p {
+      color: #7f8c8d;
+    }
+
+    .detail-mb {
+      margin-bottom: 30px;
+    }
+
+    .sns {
+      display: inline-block;
+    }
+
+    .about {
+      background: #efe9d9;
+      padding: 40px 0;r
+    }
+
+    .about-color {
+      color: #34495e;
+    }
+
+    .about-title {
+      font-size: 180%;
+      padding: 30px 0 50px 0;
+      text-align: center;
+    }
+
+    .footer p {
+      color: #7f8c8d;
+      margin: 0;
+      padding: 15px 0;
+      text-align: center;
+      background: #2d3e50;
+    }
+
+    .detail-h3 a {
+    	color: #5c5c98;
+    }
+
+    .sns a {
+      color: #efe9d9 ;
+    }
+
+    .join-title p a {
+      color: #efe9d9 ;
+    }
+  </style>
+</head>
+<body>
+<header class="am-topbar am-topbar-fixed-top">
+  <div class="am-container">
+    <h1 class="am-topbar-brand">
+      <a href="#">ILLUMER</a>
+    </h1>
+
+    <button class="am-topbar-btn am-topbar-toggle am-btn am-btn-sm am-btn-secondary am-show-sm-only"
+            data-am-collapse="{target: '#collapse-head'}"><span class="am-sr-only">导航切换</span> <span
+        class="am-icon-bars"></span></button>
+
+    <div class="am-collapse am-topbar-collapse" id="collapse-head">
+      <ul class="am-nav am-nav-pills am-topbar-nav">
+        <li class="am-active"><a href="#">首页</a></li>
+        <li><a href="http://forum.illumer.org">社区</a></li>
+        <li><a href="http://drops.illumer.org">知识库</a></li>
+        <li><a href="http://git.illumer.org">项目仓库</a></li>
+      </ul>
+
+    </div>
+  </div>
+</header>
+
+<div class="join">
+  <div class="am-g">
+    <div class="col-lg-12">
+      <h1 class="join-title">ILLUMER</h1>
+
+      <p>
+        在这里，找到志同道合之人
+      </p>
+
+      <p>
+        <button href="mailto:signup@illumer.org" class="am-btn am-btn-sm join-btn">加入我们</button >
+      </p>
+	  <div class="sns">
+	  	<span class="am-icon-github am-icon-md"><a href="https://github.com/orgs/illumer/"> Github</a></span>
+	  	<span class="am-icon-weibo am-icon-md"><a href="http://weibo.com/illumer"> 微博</a></span>
+	  	<span class="am-icon-wechat am-icon-md"><a id="my-popover" href="#"> 微信</a></span>
+	  </div>
+    </div>
+  </div>
+</div>
+
+<div class="detail">
+  <div class="am-g am-container">
+    <div class="col-lg-12">
+
+      <div class="am-g">
+        <div class="col-lg-4 col-md-6 col-sm-12 detail-mb">
+
+          <h3 class="detail-h3">
+            <i class="am-icon-group am-icon-sm"></i>
+            <a href="http://forum.illumer.org">社区</a>
+          </h3>
+
+          <p class="detail-p">
+            在这里，你可以畅所欲言，数十个技术相关板块，是交流、聊天、逗比的好地方。
+          </p>
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-12 detail-mb">
+          <h3 class="detail-h3">
+            <i class="am-icon-cube am-icon-sm"></i>
+            <a href="http://drops.illumer.org">知识库</a>
+          </h3>
+
+          <p class="detail-p">
+            数十所学校的百名技术爱好者的沉淀，来自同龄人的指导，你值得拥有。
+          </p>
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-12 detail-mb">
+          <h3 class="detail-h3">
+            <i class="am-icon-git am-icon-sm"></i>
+            <ahref="http://git.illumer.org">项目仓库</a>
+          </h3>
+
+          <p class="detail-p">
+            在这里发布你的项目，与伙伴们交流，加入大型跨校工程，从二维到三维。
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="about">
+  <div class="am-g am-container">
+    <div class="col-lg-12">
+
+      <h2>我们是谁？</h2>
+      <p>一群来自北京市高中的技术爱好者们，因为一次特别的机遇走到了一起，组建了这样一个平台。</p>
+      <h2>我们的目标？</h2>
+      <p>illumer 的意旨为中学生技术爱好者们提供一个交流，共享平台，让同学们能从这里找到自己喜欢的项目，学习新的知识，激发灵感。</p>
+      <h2>illumer 这个名字的来源？</h2>
+      <p>「illume」在词典中的解释是「照亮，点亮，启发」，而在 illume 后边加上 r，就变成「点亮者，启发者」的意思了。发音为[ɪ'lju:mə(r)]。</p>
+
+    </div>
+  </div>
+</div>
+
+<footer class="footer">
+  <p>© 2014 ILLUMER. · 京ICP备 14014159 · Licensed under <a
+      href="http://opensource.org/licenses/MIT" target="_blank">MIT license</a>. by ILLUMER Community.</p>
+
+</footer>
+<script type="text/javascript" src="http://zeptojs.com/zepto.min.js"></script>
+<script type="text/javascript" src="http://cdn.staticfile.org/amazeui/1.0.0-beta2/js/amazeui.min.js"></script>
+<script type="text/javascript" src="http://cdn.staticfile.org/amazeui/1.0.0-beta2/js/amazeui.widgets.min.js"></script>
+<script>
+$(function() {
+  $('#my-popover').popover({
+    content: '<img width="250px" src="wx.jpg"></img>'
+  })
+});
+</script>
+</body>
+</html>
